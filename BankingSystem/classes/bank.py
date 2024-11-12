@@ -28,7 +28,7 @@ class Bank:
         print("Invalid username or password.")
         return None
 
-    def transfer_funds(self, sender_username, recipie
+    def transfer_funds(self, sender_username, recipie):
  
         if sender_username not in self.customers:
             print("Sender not found.")

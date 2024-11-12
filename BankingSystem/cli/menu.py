@@ -1,5 +1,3 @@
-# menu.py
-
 from classes.bank import Bank
 
 class Bank(object):
@@ -68,11 +66,10 @@ class BankMenu:
 
 
 
-# if __name__ == "__main__":
-#     menu = BankMenu()
+if __name__ == "__main__":
+    menu = BankMenu()
     
-#     print("===== Register User =====")
-#     menu.register_user()  # Îți va cere să introduci detalii pentru un nou utilizator
-    
-#     print("\n===== Login User =====")
-#     menu.login_user()  # Îți va cere să introduci username și parola pentru autentificare
+    print("===== Register User =====")
+    menu.register_user()  
+    print("\n===== Login User =====")
+    menu.login_user()  
