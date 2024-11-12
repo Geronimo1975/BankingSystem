@@ -2,12 +2,12 @@ import re
 
 def validate_username(username):
 
-    # Exemple username-uri valide: 'user123', 'user_name', 'user-name'
+    # Exemple valid username: 'user123', 'user_name', 'user-name'
     return bool(re.match(r'^[A-Za-z0-9]{3,}$', username))
 
 def validate_password(password):
 
-    # Minimum 8 caractere, cel putin o litera mica, o litera mare, un numar si un caracter special
+    #Example valid password: 'Password123!', 'Password123', 'password1234567890'
     return bool(re.match(r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$', password))
 
 def validate_phone_number(phone):
