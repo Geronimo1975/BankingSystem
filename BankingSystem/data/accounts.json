@@ -1,0 +1,28 @@
+{
+    "ACC123": {
+        "account_id": "ACC123",
+        "owner": "testuser",
+        "balance": 800.0,
+        "transaction_history": [
+            {
+                "type": "Withdrawal",
+                "amount": 200,
+                "balance_after": 800.0,
+                "date": "12/11/2024 13:59:36"
+            }
+        ]
+    },
+    "ACC456": {
+        "account_id": "ACC456",
+        "owner": "testuser",
+        "balance": 50,
+        "transaction_history": [
+            {
+                "type": "Withdrawal",
+                "amount": 50,
+                "balance_after": 50,
+                "date": "12/11/2024 13:59:36"
+            }
+        ]
+    }
+}

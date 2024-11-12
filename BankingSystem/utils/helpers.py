@@ -1,0 +1,20 @@
+import json
+import logging
+
+def load_data(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        return {}
+
+def save_data(file_path, data):
+    with open(file_path, 'w') as file:
+        json.dump(data, file, indent=4)
+
+def setup_logging():
+    logging.basicConfig(
+        filename='logs/app.log',
+        level=logging.INFO,
+        format='%(asctime)s:%(levelname)s:%(message)s'
+    )
