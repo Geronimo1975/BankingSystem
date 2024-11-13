@@ -8,7 +8,7 @@
                 "type": "Withdrawal",
                 "amount": 200,
                 "balance_after": 800.0,
-                "date": "12/11/2024 16:15:12"
+                "date": "12/11/2024 16:20:11"
             }
         ]
     },
@@ -21,7 +21,7 @@
                 "type": "Withdrawal",
                 "amount": 50,
                 "balance_after": 50,
-                "date": "12/11/2024 16:15:12"
+                "date": "12/11/2024 16:20:11"
             }
         ]
     }
